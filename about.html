@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Faseeha's Profile | About</title>
+  </head>
+  <body>
+    <!--nav-->
+    <nav class="navbar">
+      <!--brand image-->
+
+      <h2>Faseeha Batool</h2>
+
+      <!--toggler-->
+      <button class="toggler">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+      <div class="nav-list-container">
+        <ul class="nav-list">
+          <li><a href="Home.html">home</a></li>
+          <li class="active"><a href="about.html">About</a></li>
+          <li><a href="Blogs.html">Blogs</a></li>
+          <li><a href="work.html">Experience</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <li><a href="#">Resume</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <h1>Academic Qualifications</h1>
+    </main>
+
+    <div class="container mt-5" id="q1">
+      <h3>Bachlor's of Science in Software Engineering</h3>
+      <p style="line-height: 5px">from Air University Islamabad</p>
+      <p style="line-height: 5px">2019-Present</p>
+    </div>
+    <div class="container mt-4" id="q2">
+      <h3>FSc (Pre-Engineering)</h3>
+      <p style="line-height: 5px">from Punjab College Islamabad</p>
+      <p style="line-height: 5px">2017-2019</p>
+    </div>
+    <div class="container mt-4" id="q3">
+      <h3>Matric (Science)</h3>
+      <p style="line-height: 5px">from Al-Haramain School System Islamabad</p>
+      <p style="line-height: 5px">2015-2017</p>
+    </div>
+
+    <div class="footerSett"></div>
+
+    <footer class="container-fluid mt-5">
+      <h5>Copyrights &copy; 2021-22 | All Rights Reserved</h5>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $("#q1").hide();
+      $("#q2").hide();
+      $("#q3").hide();
+
+      $("#q1").show(3000, function () {
+        $("#q1").show();
+      });
+      $("#q2").show(4000, function () {
+        $("#q2").show();
+      });
+      $("#q3").show(5000, function () {
+        $("#q3").show();
+      });
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
